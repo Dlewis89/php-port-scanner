@@ -1,0 +1,17 @@
+{
+    "name": "demetrius/php-port-scanner",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Demetrius\\PhpPortScanner\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Demetrius",
+            "email": "Demetriuslewis2012@gmail.com"
+        }
+    ],
+    "require": {}
+}
