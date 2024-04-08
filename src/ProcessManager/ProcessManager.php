@@ -4,7 +4,7 @@ namespace Demetrius\PhpPortScanner\ProcessManager;
 
 class ProcessManager 
 {
-    public static function runConcurrently($num_processes, callable $callback) {
+    public static function runConcurrently(int $num_processes, callable $callback) {
         $pids = [];
 
         for ($i = 0; $i < $num_processes; $i++) {
